@@ -1,4 +1,4 @@
-def longest_substring_with_k_distinct(string, k) -> int:
+def longest_substring_with_k_distinct(string, k):
     window_start = 0
     max_length = 0
     char_frequency = {}

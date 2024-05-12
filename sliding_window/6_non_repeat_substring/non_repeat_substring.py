@@ -11,7 +11,6 @@ def non_repeat_substring(string):
 
         while char_frequency[rightmost_char] > 1:
             leftmost_char = string[window_start]
-
             char_frequency[leftmost_char] -= 1
             window_start += 1
 

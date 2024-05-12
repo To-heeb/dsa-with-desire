@@ -16,7 +16,7 @@ def length_of_longest_substring(arr, k) -> int:
         if window_range > (max_ones_count + k):
             leftmost_num = arr[window_start]
             num_frequency[leftmost_num] -= 1
- 
+
             if leftmost_num == 1:
                 max_ones_count -= 1
             window_start += 1

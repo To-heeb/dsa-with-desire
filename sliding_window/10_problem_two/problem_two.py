@@ -35,9 +35,9 @@ def find_string_anagrams(string, pattern):
 
 
 def main():
-    # result1 = find_string_anagrams("ppqp", "pq")
+    result1 = find_string_anagrams("ppqp", "pq")
     result2 = find_string_anagrams("abbcabc", "abc")
-    # print("Permutation exists in indexes:  " + str(result1))
+    print("Permutation exists in indexes:  " + str(result1))
     print("Permutation exists in indexes:  " + str(result2))
 
 
